@@ -1,0 +1,59 @@
+<p>This is the partial for view "ContactController". {{ where }} </p>
+
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Street
+        </th>
+        <th>
+            State
+        </th>
+        <th>
+            Country
+        </th>
+        <th>
+            ZipCode
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Phone
+        </th>
+        <th>
+            Website
+        </th>
+        <th></th>
+    </tr>
+
+
+    <tr ng-repeat="contact in contacts">
+        <td>
+            {{contact.Name}}
+        </td>
+        <td>
+            {{contact.Street}}
+        </td>
+        <td>
+            {{contact.State}}
+        </td>
+        <td>
+            {{contact.Country}}
+        </td>
+        <td>
+            {{contact.Zipcode}}
+        </td>
+        <td>
+            {{contact.Email}}
+        </td>
+        <td>
+            {{contact.Phone}}
+        </td>
+        <td>
+            {{contact.Website}}
+        </td>
+    </tr>
+    </table>
